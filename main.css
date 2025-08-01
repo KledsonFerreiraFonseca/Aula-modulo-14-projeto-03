@@ -4,6 +4,7 @@ body{/*fonte para toda a página*/
 
 .navbar{
     background-color: #e15f41;
+    
 }
 
 .nav .nav-link.active{
@@ -19,4 +20,8 @@ body{/*fonte para toda a página*/
 
 .navbar-brand{/*fonte apenas para o cabeçalho*/
     font-family: pacifico, cursive;
+}
+
+.navbar-toggler{
+    background-color: #ffeae6;
 }
