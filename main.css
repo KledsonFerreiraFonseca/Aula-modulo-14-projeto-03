@@ -26,10 +26,10 @@ body{/*fonte para toda a página*/
     font-family: pacifico, cursive;
 }
 
-.section-title span{
-    color: #e15f41;
-}
-
 #sobre-o-restaurante{
     background-color: #ffeae6;
+}
+
+.text-colored{
+    color: #e15f41;
 }
