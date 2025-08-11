@@ -27,7 +27,7 @@ body{/*fonte para toda a página*/
     font-family: pacifico, cursive;
 }
 
-#sobre-o-restaurante{
+#sobre-o-restaurante, #cardapio{
     background-color: #ffeae6;
 }
 
