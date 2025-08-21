@@ -28,15 +28,13 @@ $(document).ready(function(){
             },
             sudmitHandler: function(form){
                 console.log(form)
+                alert(`Mensagem enviada com sucesso`)
             },
             invalidHandler: function(evento, validador){
                 let camposincorretos = validador.numberOfInvalids();
                 if (camposincorretos){
                     alert(`Existem ${camposincorretos} campos incorretos`)
-                } else {
-                        alert(`Mensagem enviada com sucesso`)
-                    }
-
                 }
+            }
         })
 })
