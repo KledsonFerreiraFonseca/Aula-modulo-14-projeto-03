@@ -26,7 +26,7 @@ $(document).ready(function(){
                     required: 'Por favor, insira o sua mensagem',
                     }    
             },
-            sudmitHandler: function(form){
+            submitHandler: function(form){
                 console.log(form)
                 alert(`Mensagem enviada com sucesso`)
             },
